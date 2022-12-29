@@ -19,7 +19,7 @@ void Squars(int n1)
     int count = 1;
     while (count <= n1)
     {
-        Console.WriteLine($"{count}\t" + Math.Pow(count, 2));
+        Console.WriteLine($"{count,10} {Math.Pow(count, 2), 10}");
         count++;
     }
 }
