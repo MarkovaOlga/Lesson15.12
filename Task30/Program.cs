@@ -19,7 +19,7 @@
 // int[] array = new int []{5,7};
 
 
-int[] array = CreateArray(10, 9, 23);
+int[] array = CreateArray(8, 0, 2);
 PrintArray(array);
 
 int[] CreateArray(int size, int min, int max)
@@ -38,8 +38,7 @@ void PrintArray(int[] arr)
     Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write(i < arr.Length - 1 ? arr[i] + ", " : arr[i] + "");
+        Console.Write(i < arr.Length - 1 ? arr[i] + ", " : arr[i] + "]");
     }
-    Console.Write("]");
 }
 
