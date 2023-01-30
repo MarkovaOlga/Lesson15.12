@@ -9,8 +9,7 @@
 Console.Write("Введите первое число: ");
 int first = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
-int 
-    second = Convert.ToInt32(Console.ReadLine()),
+int second = Convert.ToInt32(Console.ReadLine()),
     result = first % second;
 if (result == 0)
     Console.WriteLine($"Число {first} кратно {second}");
